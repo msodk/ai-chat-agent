@@ -1,0 +1,46 @@
+# ============================================================
+# AI Chat Desktop - gitignore rules
+# Track: source code + config + docs only.
+# Exclude: runtime artifacts, models, caches, virtualenvs.
+# ============================================================
+
+# -- App output / build artifacts --
+dist/
+build/
+_obsolete_trash/
+
+# -- Runtime dependencies (restorable, not source) --
+_ort_fix/
+
+# -- Local models / weights --
+ollama/
+ollama_models/
+checkpoints_v2/
+
+# -- Voice / inference caches --
+cosyvoice_cache/
+openvoice_cache/
+voices_cloned/
+
+# -- Python --
+.venv/
+__pycache__/
+*.pyc
+
+# -- Tooling / IDE internals (not app source) --
+.workbuddy/
+.vscode/
+
+# -- Self-check / temp artifacts --
+_smoke_test.py
+_smoke.log
+qa_run*.log
+qa_full_run.log
+qa_full_functional_report.json
+*.wav
+*.log
+pyflakes_main.txt
+
+# -- OS --
+.DS_Store
+Thumbs.db

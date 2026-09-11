@@ -1,0 +1,33 @@
+{
+  "voice_enabled": true,
+  "voice_speed": 150,
+  "voice_volume": 1.0,
+  "auto_scroll": true,
+  "screen_narrate": true,
+  "seamless_read": true,
+  "background_type": "image",
+  "color1": "#667eea",
+  "color2": "#764ba2",
+  "background_image": "",
+  "permissions": {
+    "enabled": false,
+    "read": false,
+    "write": false,
+    "delete": false,
+    "system": false
+  },
+  "selected_voices": {
+    "openvoice": {
+      "kind": "system",
+      "id": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Speech\\Voices\\Tokens\\TTS_MS_ZH-CN_HUIHUI_11.0",
+      "name": "\u5fae\u8f6f\u6167\u6167\uff08\u4e2d\u6587\u5973\u58f0\uff09",
+      "backend": "openvoice"
+    }
+  },
+  "selected_voice": {
+    "kind": "system",
+    "id": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Speech\\Voices\\Tokens\\TTS_MS_ZH-CN_HUIHUI_11.0",
+    "name": "\u5fae\u8f6f\u6167\u6167\uff08\u4e2d\u6587\u5973\u58f0\uff09",
+    "backend": "openvoice"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "default_voice": 0,
+  "voices": [
+    {
+      "name": "微软慧慧（中文女声）",
+      "description": "Microsoft Huihui - 中文简体女声，适合中文朗读",
+      "voice_index": 0,
+      "id": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Speech\\Voices\\Tokens\\TTS_MS_ZH-CN_HUIHUI_11.0"
+    },
+    {
+      "name": "微软Zira（英文女声）",
+      "description": "Microsoft Zira - 美式英语女声，适合英文朗读",
+      "voice_index": 1,
+      "id": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Speech\\Voices\\Tokens\\TTS_MS_EN-US_ZIRA_11.0"
+    }
+  ]
+}
